@@ -1,0 +1,826 @@
+body{
+    background-color:aliceblue;
+    background-image: url("..//public//lawyer2.jpg");
+    background-size:cover;
+   background-attachment: fixed;
+}
+
+.main
+{
+    display: block;
+}
+
+.homelink
+{
+    display: block;
+    height: fit-content;
+    width:fit-content;
+    background-color:rgba(24, 22, 22,0.9);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: groove;
+    border-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color:white;
+    
+}
+
+.homelink:hover
+{
+    transform: scale(1.05, 1.05);
+}
+
+.lawconnect
+{
+    color: white;
+    text-decoration: none;
+}
+
+.lawconnect:hover
+{
+    color: antiquewhite;
+}
+
+.about
+{
+    position:absolute;
+    display: inline-block;
+    width: 90%;
+    min-height: 1000px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
+    background-color: rgba(116, 112, 106, 0.7);
+    color: white;
+    padding-top: 100px;
+    
+}
+
+.connection
+{
+    position:absolute;
+    display: block;
+    width: 90%;
+    min-height: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
+    background-color: rgba(116, 112, 106, 0.7);
+   
+}
+
+.lawyers
+{
+    display: block;
+    max-height: 1000px;
+    padding-top: 100px;
+}
+
+.lawyershead
+{
+    display: block;
+    min-height: 200px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    position:relative;
+}
+
+.lawyershead_button
+{
+     display: block;
+     float: left;
+     margin-left: 3%;
+     background:rgb(221, 165, 199);
+     font-weight: bold;
+     border-style: groove;
+     border-width: 2px;
+     
+}
+
+.lawyershead_button:focus
+{
+    background:rgb(204, 123, 135);
+}
+
+.lawyersbody
+{
+   
+    overflow-y:scroll;
+    height: 750px;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+}
+
+
+
+.lawyersbody::-webkit-scrollbar {
+    display: none;
+}
+
+.lawyershead-title
+{
+    margin-top: 8px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: double;
+
+}
+
+.lawyershead_button:hover
+{
+    transform: scale(1.05, 1.05);
+}
+
+
+
+.signup-form{
+    
+    border: 3% ;
+    border-color: rgb(255, 255, 255);
+    border-style:solid;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255,0.9);
+    width:60%;
+    align-self: center;
+    margin-top: 150px;
+    max-height: 500px;
+    overflow-y:scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+   
+    
+
+  }
+
+.signup-form::-webkit-scrollbar {
+    display: none;
+}
+
+.Mybutton
+{
+    font-weight: bold;
+
+}
+
+.Mybutton:hover
+{
+    color: blueviolet;
+    transform: scale(1.05, 1.05);
+
+}
+
+.Mybutton:focus
+{
+    
+    box-shadow: none;
+    color: black;
+    border-bottom: 3px black groove;
+    border-radius: 0%;
+    transform: scale(1.05, 1.05);
+    
+}
+
+.Mybutton-active
+{
+    
+    box-shadow: none;
+    color: black;
+    border-bottom: 3px black groove;
+    border-radius: 0%;
+    transform: scale(1.05, 1.05);
+    
+}
+
+.client-button
+{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.lawyer-button
+{
+    margin-right: 20%;
+    margin-left: 10%;
+}
+
+
+
+  .form-label
+  {
+    font-weight: bold;
+  }
+
+.myprofile
+  {
+      position:fixed;
+      display: block;
+      width: 70%;
+      min-height:100%;
+      margin-left: 15%;
+      margin-right: 15%;
+      margin-top: 0px;
+      padding-top: 50px;
+      background-color:  rgba(255, 255, 255, 0.9);
+     
+  }
+
+.profile{
+    display: block;
+    position: absolute;
+    margin-top: 80px;
+    /*border: 3px black solid;*/
+    align-self: center;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.profile-col
+{
+    
+    font-weight: bolder;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: larger;
+    
+}
+
+.profile-body
+{
+    width:100%;
+    height:350px;
+    white-space:pre-line;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    overflow-wrap: break-word;
+
+}
+
+.profile-body::-webkit-scrollbar {
+    display: none;
+}
+
+.profile-body2
+{
+    width:100%;
+    height:280px;
+    white-space:pre-line;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    overflow-wrap: break-word;
+
+
+}
+
+.profile-body2::-webkit-scrollbar {
+    display: none;
+}
+
+.red 
+{
+    color:red
+}
+
+.white
+{
+    color:white
+}
+
+.blue 
+{
+    color:blue
+}
+
+.green 
+{
+    color:green
+}
+
+.my-card-body
+{
+    display: block;
+}
+
+.card-title
+{
+    font-weight: bold;
+}
+
+.card-text-block
+{
+   padding-left: 5%;
+   padding-left: 5%;
+   padding-top: 5px;
+    width: 70%;
+    display: block;
+    float: left;
+}
+
+.card-text-block2
+{
+    padding-left: 5%;
+    padding-left: 5%;
+    padding-top: 5px;
+    width: 100%;
+    display: block;
+    
+    float: left;
+}
+
+.card-button-block
+{
+    
+    width:30%;
+    float: left;
+    display: block;
+    height: 112px;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.card-button-block2
+{
+    width:100%;
+            height: fit-content;
+            display: block;
+            text-align: center;
+            border: none;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 0px;
+
+}
+
+.card-button-block:focus
+{
+    
+    box-shadow: none;
+    transform: scale(1.05, 1.05);
+    
+}
+
+.card-button-block:hover
+{
+    transform: scale(1.05, 1.05);
+}
+
+.card-button-block2:focus
+{
+    
+    box-shadow: none;
+    transform: scale(1.05, 1.05);
+    
+}
+
+.card-button-block2:hover
+{
+    transform: scale(1.05, 1.05);
+}
+
+.appointment-btn
+{
+    font-weight: bold;
+}
+
+.appointment-btn:hover
+{
+    transform: scale(1.05, 1.05);
+}
+
+.appointment-btn:focus
+{
+    box-shadow: none;
+    transform: scale(1.05, 1.05);
+}
+
+@media  only screen and (max-width:1450px) {
+    .client-button
+    {
+        margin-left: 20%;
+        margin-right: 7%;
+    }
+
+    .lawyer-button
+    {
+        margin-right: 20%;
+        margin-left: 7%;
+    }
+
+    .profile-col
+    {
+        font-size: large;
+    }
+
+    .profile{
+     
+        margin-top: 120px;
+        
+        width:86%;
+        margin-left: 7%;
+        margin-right: 7%;
+        
+    }
+   
+}
+
+@media  only screen and (max-width:1200px) {
+ 
+    .signup-form{
+        border: 3% ;
+        border-color: rgb(255, 255, 255);
+        border-style:solid;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        background-color: rgba(255, 255, 255,0.9);
+        width:80%;
+        align-self: center;
+      }
+
+      .client-button
+      {
+          margin-left: 20%;
+          margin-right: 10%;
+      }
+  
+      .lawyer-button
+      {
+          margin-right: 20%;
+          margin-left: 10%;
+      }
+
+      .card-text-block
+        {
+        padding-left: 5%;
+        padding-left: 5%;
+        padding-top: 5px;
+            width: 100%;
+            display: block;
+          
+        }
+
+        
+
+        .card-button-block
+        {
+            
+            width:100%;
+            height: fit-content;
+            display: block;
+            text-align: center;
+            border: none;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 0px;
+
+        }
+
+    
+}
+
+
+@media  only screen and (max-width:1050px) {
+
+
+      .client-button
+      {
+          margin-left: 20%;
+          margin-right: 7%;
+      }
+  
+      .lawyer-button
+      {
+          margin-right: 20%;
+          margin-left: 7%;
+      }
+
+      .profile-col
+        {
+            font-size:large
+        }
+
+        .profile{
+ 
+            width:95%;
+            margin-left: 2%;
+
+        }
+}
+
+@media  only screen and (max-width:1000px) {
+
+
+    .client-button
+    {
+        margin-left: 20%;
+        margin-right: 5%;
+    }
+
+    .lawyer-button
+    {
+        margin-right: 20%;
+        margin-left: 5%;
+    }
+}
+
+@media  only screen and (max-width:900px) {
+
+
+    .client-button
+    {
+        margin-left: 19%;
+        margin-right: 3%;
+    }
+
+    .lawyer-button
+    {
+        margin-right: 18%;
+        margin-left: 3%;
+    }
+    .profile{
+ 
+        width:97%;
+
+    }
+}
+
+
+
+@media  only screen and (max-width:800px) {
+
+
+    .client-button
+    {
+        margin-left: 15%;
+        margin-right: 3%;
+    }
+
+    .lawyer-button
+    {
+        margin-right: 15%;
+        margin-left: 3%;
+    }
+    .profile
+    {
+        margin-top: 80px;
+    }
+   
+}
+
+
+@media  only screen and (max-width:650px) {
+    body{
+        background-color:aliceblue;
+        background-image: url("..//public//lawyer4.jpg");
+        background-size:cover;
+       background-attachment: fixed;
+    }
+
+    .connection
+    {
+        position:absolute;
+        display: block;
+        width: 90%;
+        min-height:1200px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 0px;
+        background-color: rgba(116, 112, 106, 0.7);
+    
+    }
+
+    .lawyershead
+        {
+            display: block;
+            min-height: 150px;
+            padding-top: 35px;
+            padding-bottom: 35px;
+            width: 100%;
+            background-color: rgb(36, 36, 36);
+            position: sticky;
+        }
+
+    .lawyershead_button
+    {
+     display: block;
+     float: none;
+     margin-top: 5px;
+     margin-left: 0%;
+     width: 100%;
+     
+     background:rgb(221, 165, 199);
+     
+    }
+
+    .signup-form{
+        border: 3% ;
+        border-color: rgb(255, 255, 255);
+        border-style:solid;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        background-color: rgba(255, 255, 255,0.9);
+        width:96%;
+        align-self: center;
+        
+       
+        
+    
+      }
+
+      .client-button
+      {
+          margin-left: 15%;
+          margin-right: 1%;
+      }
+  
+      .lawyer-button
+      {
+          margin-right: 15%;
+          margin-left: 1%;
+      }
+
+      .profile
+      {
+          margin-top: 50px;
+      }
+
+
+    .profile-col
+    {
+        display: block;    
+    }
+
+    .myprofile
+  {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+
+  }
+
+  .card-text-block
+    {
+    padding-left: 5%;
+    padding-left: 5%;
+    padding-top: 5px;
+        width: 70%;
+        display: block;
+        float: left;
+    }
+
+
+    .card-button-block
+    {
+        
+        width:30%;
+        float: left;
+        display: block;
+        height: 112px;
+        text-align: center;
+        border: none;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+    }
+
+
+    
+}
+
+
+
+@media  only screen and (max-width:512px) {
+
+
+    .client-button
+    {
+        margin-left: 10%;
+        margin-right: 0.5%;
+    }
+
+    .lawyer-button
+    {
+        margin-right: 10%;
+        margin-left: 0.5%;
+    }
+
+    .myprofile
+    {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+  
+    }
+}
+
+@media  only screen and (max-width:440px) {
+
+
+    .client-button
+    {
+        margin-left: 8%;
+        margin-right: 0.5%;
+    }
+
+    .lawyer-button
+    {
+        margin-right: 8%;
+        margin-left: 0.5%;
+    }
+
+}
+
+@media  only screen and (max-width:420px) {
+
+
+    .client-button
+    {
+        margin-left: 5%;
+        margin-right: 0.5%;
+    }
+
+    .lawyer-button
+    {
+        margin-right: 5%;
+        margin-left: 0.5%;
+    }
+}
+
+@media  only screen and (max-width:393px) {
+
+
+    .client-button
+    {
+        margin-left: 3%;
+        margin-right: 0.25%;
+    }
+
+    .lawyer-button
+    {
+        margin-right: 3%;
+        margin-left: 0.25%;
+    }
+
+    .profile{
+      overflow-x: scroll;
+        
+    }
+
+}
+
+
+@media  only screen and (max-width:300px) {
+
+    .card-text-block
+    {
+    padding-left: 5%;
+    padding-left: 5%;
+    padding-top: 5px;
+        width: 100%;
+        display: block;
+      
+    }
+
+    .card-button-block
+    {
+        
+        width:100%;
+        height: fit-content;
+        display: block;
+        text-align: center;
+        border: none;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 0px;
+
+    }
+
+
+
+}
+
