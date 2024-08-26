@@ -13,7 +13,7 @@ export default function Main()
 
     useEffect( ()=>{
         showAlert("Welcome to LawConnect... ","primary");
-        setUser(localStorage.getItem('user'));
+        setUser(localStorage.getItem('user')||'client');
     },[])
 
     return(

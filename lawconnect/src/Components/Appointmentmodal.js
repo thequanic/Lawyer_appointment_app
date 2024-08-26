@@ -15,6 +15,7 @@ export default function Appointmentmodal()
     const handleClick=(e)=>{
         e.preventDefault();
         addAppointment(lawyer._id,dateTime);
+        console.log(dateTime);
         closeRef.current.click();
     }
 

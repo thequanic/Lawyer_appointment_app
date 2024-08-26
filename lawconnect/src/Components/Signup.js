@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import AppContext from '../Context/appContext';
 import Clientsignup from './Clientsignup';
-import Lawyersingup from './Lawyersignup';
+import Lawyersignup from './Lawyersignup';
 
 
 export default function Signup()
@@ -11,7 +11,7 @@ export default function Signup()
 
     return(
         <div className='container signup-form'>
-          
+         
             <div className='loginhead'>
                 <strong><h1 >Sign Up to use LawConnect</h1></strong>
                
@@ -24,7 +24,7 @@ export default function Signup()
             <hr/>
             {/*<p style={{color:"blue"}}>*scroll down to find submit button</p>*/}
             <div className='loginbody'>
-                {user==="client"?<Clientsignup/>:<Lawyersingup/>}
+                {user=="client"?<Clientsignup/>:<Lawyersignup/>}
             </div>
           
         </div>

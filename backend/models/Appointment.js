@@ -2,15 +2,18 @@ const mongoose=require(`mongoose`);
 const {Schema}=mongoose;
 const AppointmentSchema = new Schema(
     {
-    client_id:{
+    client_id:
+    {
         type:mongoose.Schema.Types.ObjectId,
         ref:'client'
     },
-    lawyer_id:{
+    lawyer_id:
+    {
         type:mongoose.Schema.Types.ObjectId,
         ref:'lawyer'
     },
-    confirm:{
+    confirm:
+    {
         type: Boolean,
         required: true,
         default:false
@@ -38,7 +41,8 @@ const AppointmentSchema = new Schema(
         required: true,
         default:false
     },
-    date_of_creation:{
+    date_of_creation:
+    {
         type:Date,
         default:Date.now
     }
